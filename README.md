@@ -1,5 +1,5 @@
 # sl-next-departure
-Alexa skill that checks the next departure of SL local transportation from a certain stop.
+Alexa skill that checks the next departure of SL local transportation from a certain stop. Using the SL app https://www.trafiklab.se/api/trafiklab-apis/sl/transport/
 
 ### How to use
 * "Ask SL when does the next metro leave"
@@ -18,6 +18,8 @@ Alexa skill that checks the next departure of SL local transportation from a cer
 4. Test and use your skill:
    * Use the built-in test simulator in the Alexa Developer Console to test your skill's functionality
    * You use your skill on an Alexa-enabled device by enabling it for testing in the "Distribution" section of the console
+
+To find the SiteID of your SL stop, use the following endpoint: https://transport.integration.sl.se/v1/sites
 
 ### Voice interface
 
