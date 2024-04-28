@@ -1,0 +1,84 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "location",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "linenumber",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "transportationmode",
+              "type": "transportmodes"
+            }
+          ],
+          "name": "DepartureInfoIntent",
+          "samples": [
+            "when {transportationmode} {linenumber} leaves",
+            "When is the next {linenumber}",
+            "{transportationmode} {linenumber}",
+            "When does {linenumber} leave",
+            "When {linenumber} leaves",
+            "When is the next {transportationmode} {linenumber}",
+            "Whens the next {transportationmode}  {linenumber}",
+            "When is the next {transportationmode} number {linenumber}",
+            "When is the next {transportationmode}",
+            "when the next {transportationmode} leaves",
+            "Whens the next {transportationmode} number {linenumber}",
+            "When does the {transportationmode} leave",
+            "When does {transportationmode} {linenumber} leave",
+            "When does the next {transportationmode} leave"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "metro"
+              }
+            },
+            {
+              "name": {
+                "value": "train"
+              }
+            },
+            {
+              "name": {
+                "value": "bus"
+              }
+            }
+          ],
+          "name": "transportmodes"
+        }
+      ],
+      "invocationName": "s. l."
+    }
+  }
+}
