@@ -1,0 +1,115 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:637423275415:function:f100595a-796f-4543-8b18-f7b2f6926930:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:637423275415:function:f100595a-796f-4543-8b18-f7b2f6926930:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:637423275415:function:f100595a-796f-4543-8b18-f7b2f6926930:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:637423275415:function:f100595a-796f-4543-8b18-f7b2f6926930:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "locales": {
+        "en-US": {},
+        "en-CA": {},
+        "en-IN": {},
+        "en-AU": {},
+        "en-GB": {}
+      },
+      "shoppingKit": {
+        "isAmazonAssociatesOnAlexaEnabled": false,
+        "isShoppingActionsEnabled": false
+      },
+      "usesPersonalInfo": false
+    },
+    "publishingInformation": {
+      "automaticClonedLocale": {
+        "locales": [
+          {
+            "source": "en-US"
+          }
+        ]
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "category": "PUBLIC_TRANSPORTATION",
+      "distributionCountries": [
+        "SE"
+      ],
+      "distributionMode": "PUBLIC",
+      "isAvailableWorldwide": false,
+      "locales": {
+        "en-US": {
+          "description": "\"SL Next Departure\" is an Alexa skill that allows users to easily check the next departure time of SL local transportation from a specific stop. The skill utilizes the SL API to retrieve real-time information about the departure times of buses, trams, and trains.\n\nUsers can simply ask Alexa for the next departure time by saying the invocation name, followed by the name of the stop. For example, \"Alexa, ask depature times when is the next bus\". The skill will then respond with the next departure time, as well as the line number and destination of the transportation.\n\nThe skill is designed to make it easy for users to access the information they need without having to navigate through a website or mobile app. It is particularly useful for commuters who need to quickly check the departure times before leaving home or the office.\n\nThe skill can be customized to specific stops, so users can easily check the departure times for the stops they use most frequently. The skill is currently only available for use in Stockholm, Sweden and only supports SL transportation.",
+          "examplePhrases": [
+            "Alexa, open departure times"
+          ],
+          "keywords": [],
+          "name": "SL Next Departure",
+          "summary": "Checks the next departure of SL local transportation from a certain stop"
+        },
+        "en-CA": {
+          "description": "\"SL Next Departure\" is an Alexa skill that allows users to easily check the next departure time of SL local transportation from a specific stop. The skill utilizes the SL API to retrieve real-time information about the departure times of buses, trams, and trains.\n\nUsers can simply ask Alexa for the next departure time by saying the invocation name, followed by the name of the stop. For example, \"Alexa, ask depature times when is the next bus\". The skill will then respond with the next departure time, as well as the line number and destination of the transportation.\n\nThe skill is designed to make it easy for users to access the information they need without having to navigate through a website or mobile app. It is particularly useful for commuters who need to quickly check the departure times before leaving home or the office.\n\nThe skill can be customized to specific stops, so users can easily check the departure times for the stops they use most frequently. The skill is currently only available for use in Stockholm, Sweden and only supports SL transportation.",
+          "examplePhrases": [
+            "Alexa, open departure times"
+          ],
+          "keywords": [],
+          "name": "SL Next Departure",
+          "summary": "Checks the next departure of SL local transportation from a certain stop"
+        },
+        "en-IN": {
+          "description": "\"SL Next Departure\" is an Alexa skill that allows users to easily check the next departure time of SL local transportation from a specific stop. The skill utilizes the SL API to retrieve real-time information about the departure times of buses, trams, and trains.\n\nUsers can simply ask Alexa for the next departure time by saying the invocation name, followed by the name of the stop. For example, \"Alexa, ask depature times when is the next bus\". The skill will then respond with the next departure time, as well as the line number and destination of the transportation.\n\nThe skill is designed to make it easy for users to access the information they need without having to navigate through a website or mobile app. It is particularly useful for commuters who need to quickly check the departure times before leaving home or the office.\n\nThe skill can be customized to specific stops, so users can easily check the departure times for the stops they use most frequently. The skill is currently only available for use in Stockholm, Sweden and only supports SL transportation.",
+          "examplePhrases": [
+            "Alexa, open departure times"
+          ],
+          "keywords": [],
+          "name": "SL Next Departure",
+          "summary": "Checks the next departure of SL local transportation from a certain stop"
+        },
+        "en-AU": {
+          "description": "\"SL Next Departure\" is an Alexa skill that allows users to easily check the next departure time of SL local transportation from a specific stop. The skill utilizes the SL API to retrieve real-time information about the departure times of buses, trams, and trains.\n\nUsers can simply ask Alexa for the next departure time by saying the invocation name, followed by the name of the stop. For example, \"Alexa, ask depature times when is the next bus\". The skill will then respond with the next departure time, as well as the line number and destination of the transportation.\n\nThe skill is designed to make it easy for users to access the information they need without having to navigate through a website or mobile app. It is particularly useful for commuters who need to quickly check the departure times before leaving home or the office.\n\nThe skill can be customized to specific stops, so users can easily check the departure times for the stops they use most frequently. The skill is currently only available for use in Stockholm, Sweden and only supports SL transportation.",
+          "examplePhrases": [
+            "Alexa, open departure times"
+          ],
+          "keywords": [],
+          "name": "SL Next Departure",
+          "summary": "Checks the next departure of SL local transportation from a certain stop"
+        },
+        "en-GB": {
+          "description": "\"SL Next Departure\" is an Alexa skill that allows users to easily check the next departure time of SL local transportation from a specific stop. The skill utilizes the SL API to retrieve real-time information about the departure times of buses, trams, and trains.\n\nUsers can simply ask Alexa for the next departure time by saying the invocation name, followed by the name of the stop. For example, \"Alexa, ask depature times when is the next bus\". The skill will then respond with the next departure time, as well as the line number and destination of the transportation.\n\nThe skill is designed to make it easy for users to access the information they need without having to navigate through a website or mobile app. It is particularly useful for commuters who need to quickly check the departure times before leaving home or the office.\n\nThe skill can be customized to specific stops, so users can easily check the departure times for the stops they use most frequently. The skill is currently only available for use in Stockholm, Sweden and only supports SL transportation.",
+          "examplePhrases": [
+            "Alexa, open departure times"
+          ],
+          "keywords": [],
+          "name": "SL Next Departure",
+          "summary": "Checks the next departure of SL local transportation from a certain stop"
+        }
+      },
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}"
+    }
+  }
+}
