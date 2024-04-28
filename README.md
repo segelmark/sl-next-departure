@@ -1,5 +1,5 @@
 # sl-next-departure
-The Alexa skill that checks the next departure of SL local transportation from a certain stop.
+Alexa skill that checks the next departure of SL local transportation from a certain stop.
 
 ### How to use
 * "Ask SL when does the next metro leave"
