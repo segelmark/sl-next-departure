@@ -1,11 +1,11 @@
 # sl-next-departure
 Alexa skill that checks the next departure of SL local transportation from a certain stop. Using the SL API https://www.trafiklab.se/api/trafiklab-apis/sl/transport/
 
-### How to use
+## How to use
 * "Ask SL when does the next metro leave"
 * "Ask SL when does bus 4 leave"
 
-### How to set up
+## How to set up
 1. Set up your skill in the [Amazon Developer Console](https://developer.amazon.com/alexa):
    * Go to the Amazon Developer Console and sign in with your Amazon Developer account
    * Click on "Create Skill" in the upper-right corner
@@ -21,14 +21,13 @@ Alexa skill that checks the next departure of SL local transportation from a cer
 
 To find the SiteID of your SL stop, use the following endpoint: https://transport.integration.sl.se/v1/sites
 
-### Voice interface
+## Voice interface
 
-#### Invocation Name
+### Invocation Name
 The invocation name for the skill is 'S. L.' used to begin interacting with the skill.
 
-#### Intents
-The intent represents an action that fulfills a user's spoken request. Intents can optionally have arguments called slots.
-* DepartureInfoIntent
+### DepartureInfoIntent
+The intent represents an action that fulfills a user's spoken request, to get the upcoming departures. Intents can optionally have arguments called slots.
 
 #### Sample Utterances
 A sample utterance is a spoken phrase that a user might say to invoke an intent 
