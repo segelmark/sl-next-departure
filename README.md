@@ -1,5 +1,5 @@
 # sl-next-departure
-Alexa skill that checks the next departure of SL local transportation from a certain stop. Using the SL app https://www.trafiklab.se/api/trafiklab-apis/sl/transport/
+Alexa skill that checks the next departure of SL local transportation from a certain stop. Using the SL API https://www.trafiklab.se/api/trafiklab-apis/sl/transport/
 
 ### How to use
 * "Ask SL when does the next metro leave"
